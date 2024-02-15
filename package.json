@@ -1,0 +1,26 @@
+{
+  "name": "5.-setting-up-a-professional-backend-project",
+  "version": "1.0.0",
+  "description": "A youtube like backend project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "keywords": [
+    "\"JavaScript\"",
+    "\"Mern\"",
+    "\"yotuobe",
+    "backend\""
+  ],
+  "author": "Ani",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.1.2"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  }
+}
