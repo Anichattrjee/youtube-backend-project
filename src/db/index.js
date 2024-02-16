@@ -6,7 +6,8 @@ import { DB_NAME } from "../constants.js";
         const connectionInstance=await mongoose.connect(`${process.env.MONGODB_URL}/${DB_NAME}`);
         // console.log(`${process.env.MONGODB_URL}/${DB_NAME}`)
         console.log(`Connected to Video database: DB HOST: ${connectionInstance.connection.host}`);
-    }catch(error)
+    }
+    catch(error)
     {
         console.log("MONGODB connection error! ",error);
     }
